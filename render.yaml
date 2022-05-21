@@ -6,8 +6,8 @@ services:
   name: discourse-web
   env: docker
   plan: starter plus
-  dockerfilePath: ./web/v2.6.3/Dockerfile
-  dockerContext: ./web/v2.6.3
+  dockerfilePath: ./web/main/Dockerfile
+  dockerContext: ./web/main
   autoDeploy: false
   healthCheckPath: /srv/status
   disk:
